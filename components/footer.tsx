@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Facebook, Instagram, Linkedin, Youtube, MessageCircle } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import { PrivacyPopup } from "@/components/privacy-popup"
 
 export function Footer() {
   const { t, language } = useLanguage()
@@ -24,9 +25,7 @@ export function Footer() {
           <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors duration-200">
             {t("homepage")}
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors duration-200">
-            {t("privacyNotice")}
-          </a>
+          <PrivacyPopup />
         </div>
 
         <div className="flex justify-center gap-6 mb-8">
