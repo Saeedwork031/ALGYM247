@@ -39,7 +39,7 @@ export function MemberTestimonialsSection() {
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="border-b border-gray-100 last:border-b-0 pb-6 last:pb-0">
                   <p className="text-gray-700 font-medium mb-2">
-                    {testimonial.name}: <span className="text-orange-500 font-normal">"{testimonial.quote}".</span>
+                    {testimonial.name}: <span className="text-orange-500 font-normal">&ldquo;{testimonial.quote}&rdquo;.</span>
                   </p>
                 </div>
               ))}

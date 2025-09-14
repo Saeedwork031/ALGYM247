@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { Button } from "@/components/ui/button"
-import { Play, Star } from "lucide-react"
+import { Star } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function HeroSection() {
@@ -78,7 +78,7 @@ export function HeroSection() {
 
             {/* Testimonial */}
             <div className="bg-white p-6 rounded-lg shadow-sm animate-fade-in-up animation-delay-800 transition-all duration-300 hover:shadow-lg hover:scale-[1.02] transform-gpu">
-              <blockquote className="text-gray-700 text-sm leading-relaxed mb-4">"{t("testimonialText")}"</blockquote>
+              <blockquote className="text-gray-700 text-sm leading-relaxed mb-4">&ldquo;{t("testimonialText")}&rdquo;</blockquote>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110">
                   <span className="text-gray-600 text-sm font-medium">JA</span>

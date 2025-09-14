@@ -15,14 +15,6 @@ export function Footer() {
     window.open(`https://api.whatsapp.com/send/?phone=525569028493&text=${message}&type=phone_number&app_absent=0`, "_blank")
   }
 
-  const handleMeInteresa = () => {
-    const message =
-      language === "es"
-        ? encodeURIComponent("¡Hola! Me interesa conocer más sobre las membresías de Algym247.")
-        : encodeURIComponent("Hello! I'm interested in learning more about Algym247 memberships.")
-    window.open(`https://api.whatsapp.com/send/?phone=525569028493&text=${message}&type=phone_number&app_absent=0`, "_blank")
-  }
-
   return (
     <footer className="bg-gray-100 py-16">
       <div className="container mx-auto px-4 text-center">

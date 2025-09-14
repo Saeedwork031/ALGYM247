@@ -19,7 +19,7 @@ export function FeaturedTestimonialSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="text-white text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed mb-8">
-            "{t("featuredTestimonialQuote")}"
+            &ldquo;{t("featuredTestimonialQuote")}&rdquo;
           </blockquote>
 
           <div className="flex items-center justify-center gap-4">
